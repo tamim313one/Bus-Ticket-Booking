@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>User Authentication</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <h1>Paribahan</h1>
+    </div>
+    <div class="links">
+      <div class="link"><a href="index.html">Home</a></div>
+      <div class="link"><a href="booking.html">Book Ticket</a></div>
+      <div class="link"><a href="#">About</a></div>
+      <div class="link"><a href="#">Contact</a></div>
+    </div>
+  </nav>
+
+  <!-- Authentication Section -->
+  <section class="auth">
+    <div class="auth-box">
+      <h2 id="form-title">Login</h2>
+
+      <!-- Login Form -->
+      <form id="login-form">
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" placeholder="Enter your password" required>
+        </div>
+
+        <button type="submit" class="book-btn">Login</button>
+        <p>Don't have an account? <a href="#" id="show-signup">Sign Up</a></p>
+      </form>
+
+      <!-- Signup Form -->
+      <form id="signup-form" style="display:none;">
+        <div class="form-group">
+          <label>Full Name</label>
+          <input type="text" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+          <label>Password</label>
+          <input type="password" placeholder="Create a password" required>
+        </div>
+
+        <button type="submit" class="book-btn">Sign Up</button>
+        <p>Already have an account? <a href="#" id="show-login">Login</a></p>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/auth.js"></script>
+</body>
+</html>
