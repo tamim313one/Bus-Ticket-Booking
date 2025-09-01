@@ -23,8 +23,9 @@
             <div class="link" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="500"><a href="">Contact</a></div>
         </div>
         <div class="buttons">
-            <button data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600">Login</button>
-            <button data-aos="fade-up" data-aos-duration="1200" data-aos-delay="700">Sign Up</button>
+            <button data-aos="fade-up" data-aos-duration="1200" data-aos-delay="600" onclick="goToAuth('login')">Login</button>
+            <button data-aos="fade-up" data-aos-duration="1200" data-aos-delay="700" onclick="goToAuth('signup')">Sign Up</button>
+
         </div>
     </nav>
     <section>
@@ -42,6 +43,7 @@
   <script>
     AOS.init();
   </script>
+  <script src="js/auth.js"></script>
 </body>
 
 </html>
