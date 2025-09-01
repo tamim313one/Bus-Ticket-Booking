@@ -37,3 +37,26 @@ nav .links a{
 nav .links a:hover{
     text-decoration: underline;
 }
+
+nav .buttons{
+    width: 250px;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .buttons button{
+    margin: 0 5px;
+    width: 40%;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(7,113,219);
+    transition: 0.2s linear;
+}
+
